@@ -1,0 +1,54 @@
+div{
+    padding: 20px;
+    border: solid red 2px;
+    margin: 14px;
+    width: 123px;
+    height: 154px;
+    float: right;
+    font-size: 15px;
+    border-radius:20px;
+  /*  position: absolute; */
+    animation-name: myani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes myani {
+    0% {background-color: red;margin: 20px;}
+    25% {background-color: seagreen;margin: 40px;}
+    50% {background-color: springgreen;}
+    75% {background-color: yellow;}
+    100% {background-color: brown;}
+}
+#d1{
+    transform:matrix(22px);
+}
+#d2{
+    transform: skew(10deg,15deg);
+}
+#d3{
+    transform:rotateY(120deg);
+}
+p{
+    text-decoration:chartreuse;
+    text-indent:50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif,bold;
+    color: brown;
+    font-size: 25px;
+    background-color :darkcyan (20, 113, 220);
+
+}
+body{
+    background-image:url("images.jpg");
+}
+table{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: right;
+  background-color: #4CAF50;
+  color: white;
+  float:right;
+}
